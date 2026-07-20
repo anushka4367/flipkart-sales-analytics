@@ -1,4 +1,3 @@
-mujhe
 📊 Flipkart Sales Analytics
 📌 Project Overview
 
