@@ -1,67 +1,92 @@
-Flipkart Sales Analytics 📊
+mujhe
+📊 Flipkart Sales Analytics
 📌 Project Overview
-This project is an end-to-end data analytics case study performed on Flipkart sales data.
-The objective is to derive actionable business insights related to pricing strategy, discount behavior, product quality, payment mode contribution, and return risk.
 
-The project follows a complete analytics lifecycle:
+This project is an end-to-end data analytics case study on Flipkart sales data. The objective is to analyze sales, pricing, discounts, customer ratings, payment methods, and return risk to generate meaningful business insights that support data-driven decision-making.
 
-Business problem understanding
-Data cleaning and feature engineering
-SQL-based analysis
-Interactive dashboard creation
-Insight generation
-🧠 Business Problem
-Flipkart hosts a wide range of products across multiple categories and price segments.
-Business stakeholders require a consolidated analytical view to understand:
+🎯 Business Objective
 
-How products are distributed across price bands
-Discount patterns across pricing segments
-Customer perception through ratings
-Revenue contribution by payment modes
-Product segments with higher return risk
-This project aims to support data-driven decision-making by transforming raw sales data into meaningful insights.
+The project focuses on answering key business questions such as:
 
-🛠 Tools & Technologies Used
-Python (Pandas, NumPy) – Data cleaning & feature engineering
-MySQL – Structured data analysis using SQL queries
-Power BI – Interactive dashboard & visualization
-GitHub – Version control and project documentation
-🧹 Data Cleaning & Feature Engineering (Python)
-The raw dataset was cleaned and transformed using Python:
+How are products distributed across different price bands?
+Which products receive the highest discounts?
+How do customer ratings vary across products?
+Which payment methods contribute the most revenue?
+Which product segments have a higher return risk?
+🛠️ Tech Stack
+Python (Pandas, NumPy) – Data Cleaning & Feature Engineering
+MySQL – Data Analysis using SQL
+Power BI – Dashboard & Data Visualization
+Git & GitHub – Version Control
+🧹 Data Cleaning & Feature Engineering
 
-Converted date columns to proper datetime format
-Handled missing values in categorical fields
-Ensured numerical consistency for price and rating columns
-Created new analytical features:
+The dataset was cleaned and transformed using Python by:
+
+Converting date columns into datetime format
+Handling missing values
+Standardizing numerical columns
+Creating new analytical features:
 discount_amount
 price_band
 rating_band
 return_risk_flag
-listing_year, listing_month
-The cleaned dataset was then prepared for SQL analysis and visualization.
+listing_year
+listing_month
 
-🗄 Data Analysis (MySQL)
-The cleaned data was loaded into a MySQL database and analyzed using SQL queries to:
+The cleaned dataset was then used for SQL analysis and Power BI visualization.
 
-Analyze product distribution across price bands
-Study average selling price and discount behavior
-Identify monthly listing trends
-Analyze revenue contribution by payment modes
-Detect high return-risk product segments
-📊 Data Visualization (Power BI)
-An interactive Power BI dashboard was built to visualize insights:
+🗄️ SQL Analysis
 
-KPI cards for overall metrics
-Monthly trend analysis
-Pricing and discount analysis
-Product rating distribution
-Payment mode revenue treemap
-Interactive slicers for dynamic filtering
-The dashboard enables stakeholders to explore data intuitively and make informed decisions.
+SQL queries were written to analyze:
 
+Product distribution across price bands
+Average selling price and discount trends
+Monthly listing trends
+Revenue contribution by payment methods
+Customer rating distribution
+High return-risk product segments
+📊 Dashboard
+
+The Power BI dashboard includes:
+
+KPI Cards
+Price Band Analysis
+Discount Analysis
+Monthly Trends
+Product Rating Distribution
+Payment Mode Analysis
+Return Risk Analysis
+Interactive Filters & Slicers
 🔍 Key Insights
-Medium price band contains the highest number of product listings
-Lower-priced products receive higher discounts
-Majority of products have Average to Good ratings
-Revenue is evenly distributed across major payment modes
-Return risk is concentrated in specific product segments
+Medium-priced products have the highest number of listings.
+Lower-priced products generally offer higher discounts.
+Most products receive Average to Good customer ratings.
+Revenue is distributed relatively evenly across major payment methods.
+Higher return risk is concentrated in specific product segments.
+📂 Project Structure
+Flipkart-Sales-Analytics/
+│
+├── Dataset/
+│   ├── Raw_Data.csv
+│   └── Cleaned_Data.csv
+│
+├── Python/
+│   └── Data_Cleaning.ipynb
+│
+├── SQL/
+│   └── Flipkart_SQL_Analysis.sql
+│
+├── PowerBI/
+│   └── Flipkart_Sales_Dashboard.pbix
+│
+└── README.md
+🚀 Skills Demonstrated
+Data Cleaning
+Feature Engineering
+SQL
+Data Analysis
+Power BI
+Data Visualization
+Business Intelligence
+Business Insight Generation
+Data Storytelling
