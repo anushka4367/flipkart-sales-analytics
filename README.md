@@ -44,6 +44,8 @@ Monthly listing trends
 Revenue contribution by payment methods
 Customer rating distribution
 High return-risk product segments
+
+
 📊 Dashboard
 
 The Power BI dashboard includes:
@@ -62,6 +64,8 @@ Lower-priced products generally offer higher discounts.
 Most products receive Average to Good customer ratings.
 Revenue is distributed relatively evenly across major payment methods.
 Higher return risk is concentrated in specific product segments.
+
+
 📂 Project Structure
 Flipkart-Sales-Analytics/
 │
@@ -79,6 +83,8 @@ Flipkart-Sales-Analytics/
 │   └── Flipkart_Sales_Dashboard.pbix
 │
 └── README.md
+
+
 🚀 Skills Demonstrated
 Data Cleaning
 Feature Engineering
